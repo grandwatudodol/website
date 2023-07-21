@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.w3-button {width:150px;}
+</style>
+
+</head>
+<body class="w3-light-grey">
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+  <span class="w3-bar-item w3-right">Logo</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <img src="G0169051.JPG" class="w3-circle w3-margin-right" style="width:46px">
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>grandwatudodol<strong></strong></span><br>
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>
+    </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+
+    <p><button class="w3-button w3-red"  onclick="off_1()">off 1</button></p>
+    <p><button class="w3-button w3-pink">Pink</button></p>
+    <p><button class="w3-button w3-purple">Purple</button></p>
+    <p><button class="w3-button w3-deep-purple">Deep Purple</button></p>
+    <p><button class="w3-button w3-indigo">Indigo</button></p>
+    <p><button class="w3-button w3-blue">Blue</button></p>
+    <p><button class="w3-button w3-light-blue">Light Blue</button></p>
+    <p><button class="w3-button w3-cyan">Cyan</button></p>
+    <p><button class="w3-button w3-aqua">Aqua</button></p>
+    <p><button class="w3-button w3-teal">Teal</button></p>
+    <p><button class="w3-button w3-green">Green</button></p>
+    <p><button class="w3-button w3-light-green">Light Green</button></p>
+    <p><button class="w3-button w3-lime">Lime</button></p>
+    <p><button class="w3-button w3-sand">Sand</button></p>
+    <p><button class="w3-button w3-khaki">Khaki</button></p>
+    <p><button class="w3-button w3-yellow">Yellow</button></p>
+    <p><button class="w3-button w3-amber">Amber</button></p>
+    <p><button class="w3-button w3-orange">Orange</button></p>
+    <p><button class="w3-button w3-deep-orange">Deep Orange</button></p>
+    <p><button class="w3-button w3-brown">Brown</button></p>
+    <p><button class="w3-button w3-blue-grey">Blue Grey</button></p>
+    <p><button class="w3-button w3-light-grey">Light Grey</button></p>
+    <p><button class="w3-button w3-grey">Grey</button></p>
+    <p><button class="w3-button w3-dark-grey">Dark Grey</button></p>
+    <p><button class="w3-button w3-black">Black</button></p>
+    <p><button class="w3-button w3-pale-red">Pale-red</button></p>
+    <p><button class="w3-button w3-pale-yellow">Pale-yellow</button></p>
+    <p><button class="w3-button w3-pale-green">Pale-green</button></p>
+    <p><button class="w3-button w3-pale-blue">Pale-blue</button></p>        
+  </div>
+  
+  <div class="w3-container">
+    <h5>Dashboard GWD BOS</h5>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+    </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
+  </header>
+ 
+  <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-quarter">
+      <div class="w3-container w3-red w3-padding-16">
+        <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>52</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>Pesan</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>99</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>GWD</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-teal w3-padding-16">
+        <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>23</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>Shares</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-orange w3-text-white w3-padding-16">
+        <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>50</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>Users</h4>
+      </div>
+    </div>
+  </div>
+
+  <button style="background-color: blue;padding: 10px;" onclick="on_1()">lampu utara on</button>
+
+  <button style= "background-color: aqua;padding: 10px;" onclick="off_1">lampu utara off</button>
+    <button style="background-color: blue; padding: 10px;"onclick=" on_2()">lampu tengah on</button>
+    <button style= "background-color: aqua; padding: 10px;" onclick="off_2">lampu tengah off</button>
+    <button style="background-color: blue;padding: 10px;" onclick="on_3()">lampu selatan on</button>
+    <button style="background-color: aqua;padding: 10px;" onclick="off_3">lampu selatan off</button>  
+
+  <div id="chartdiv1" style = "height: 315px;"></div>
+
+  <div class="w3-panel">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third">
+<h5>Regions</h5>
+
+</div>
+    
+    </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>General Stats</h5>
+    <p>New Visitors</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-green" style="width:25%">+25%</div>
+    </div>
+
+    <p>New Users</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-orange" style="width:50%">50%</div>
+    </div>
+
+    <p>Bounce Rate</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-red" style="width:75%">75%</div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="w3-container">
+    <h5>Countries</h5>
+    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+      <tr>
+        <td>United States</td>
+        <td>65%</td>
+      </tr>
+      <tr>
+        <td>UK</td>
+        <td>15.7%</td>
+      </tr>
+      <tr>
+        <td>Russia</td>
+        <td>5.6%</td>
+      </tr>
+      <tr>
+        <td>Spain</td>
+        <td>2.1%</td>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td>1.9%</td>
+      </tr>
+      <tr>
+        <td>France</td>
+        <td>1.5%</td>
+      </tr>
+    </table><br>
+    <button class="w3-button w3-dark-grey">More Countries  <i class="fa fa-arrow-right"></i></button>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Recent Users</h5>
+    <ul class="w3-ul w3-card-4 w3-white">
+      <li class="w3-padding-16">
+        <img src="/w3images/avatar2.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
+        <span class="w3-xlarge">Mike</span><br>
+      </li>
+      <li class="w3-padding-16">
+        <img src="/w3images/avatar5.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
+        <span class="w3-xlarge">Jill</span><br>
+      </li>
+      <li class="w3-padding-16">
+        <img src="/w3images/avatar6.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
+        <span class="w3-xlarge">Jane</span><br>
+      </li>
+    </ul>
+  </div>
+  <hr>
+
+  <div class="w3-container">
+    <h5>Recent Comments</h5>
+    <div class="w3-row">
+      <div class="w3-col m2 text-center">
+        <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
+      </div>
+      <div class="w3-col m10 w3-container">
+        <h4>John <span class="w3-opacity w3-medium">Sep 29, 2014, 9:12 PM</span></h4>
+        <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+      </div>
+    </div>
+
+    <div class="w3-row">
+      <div class="w3-col m2 text-center">
+        <img class="w3-circle" src="/w3images/avatar1.png" style="width:96px;height:96px">
+      </div>
+      <div class="w3-col m10 w3-container">
+        <h4>Bo <span class="w3-opacity w3-medium">Sep 28, 2014, 10:15 PM</span></h4>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-green">Demographic</h5>
+        <p>Language</p>
+        <p>Country</p>
+        <p>City</p>
+      </div>
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-red">System</h5>
+        <p>Browser</p>
+        <p>OS</p>
+        <p>More</p>
+      </div>
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-orange">Target</h5>
+        <p>Users</p>
+        <p>Active</p>
+        <p>Geo</p>
+        <p>Interests</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-16 w3-light-grey">
+    <h4>FOOTER</h4>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script src="clientjs/jquery-3.2.1.slim.min.js"></script>
+<script src="clientjs/core.js"></script>
+<script src="clientjs/chart.js"></script>
+<script src="clientjs/anim.js"></script>
+<script src= "clientjs/firebase.js"></script>
+
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+<script>
+
+    var config = {
+      apiKey: "AIzaSyBYVwVZUBLXSm7iR5Fp6k-dziJGEuhwExk",
+      authDomain: "megaboth007.firebaseapp.com",
+      databaseURL: "https://megaboth007.firebaseio.com",
+      projectId: "megaboth007",
+      storageBucket: "megaboth007.appspot.com",
+      messagingSenderId: "942424390212",
+      appId: "1:942424390212:web:c3622743b0fba57b5a1a11"
+    
+      };
+    firebase.initializeApp(config);
+    var db = firebase.database();
+    var tes = db.ref("/test/int");
+    
+    function on_1(){
+      db.ref("/relay1").set("1");
+      }
+    function on_2(){
+      db.ref("/relay2").set("1");
+      }
+    function on_3(){
+      db.ref("/relay3").set("1");
+      }
+      function off_1(){
+      db.ref("/relay1").set("0");
+      }
+    function off_2(){
+      db.ref("/relay2").set("0");
+      }
+    function off_3(){
+      db.ref("/relay3").set("0");
+      }
+    
+      am4core.ready(function() {
+        
+        // Themes begin
+        am4core.useTheme(am4themes_animated);
+        // Themes end
+        
+        var chart = am4core.create("chartdiv1", am4charts.XYChart);
+        chart.hiddenState.properties.opacity = 0;
+        
+        chart.padding(0, 0, 0, 0);
+        
+        chart.zoomOutButton.disabled = true;
+        
+        var data = [];
+        var visits = 0;
+        var i = 0;
+        
+        for (i = 0; i <= 100; i++) {
+            data.push({ date: new Date().setSeconds(i - 30), value: visits });
+        }
+        
+        chart.data = data;
+        
+        var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
+        dateAxis.renderer.grid.template.location = 0;
+        dateAxis.renderer.minGridDistance = 30;
+        dateAxis.dateFormats.setKey("second", "ss");
+        dateAxis.periodChangeDateFormats.setKey("second", "[bold]h:mm a");
+        dateAxis.periodChangeDateFormats.setKey("minute", "[bold]h:mm a");
+        dateAxis.periodChangeDateFormats.setKey("hour", "[bold]h:mm a");
+        dateAxis.renderer.inside = true;
+        dateAxis.renderer.axisFills.template.disabled = true;
+        dateAxis.renderer.ticks.template.disabled = true;
+        
+        var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+        valueAxis.tooltip.disabled = true;
+        valueAxis.interpolationDuration = 500;
+        valueAxis.rangeChangeDuration = 100;
+        valueAxis.renderer.inside = true;
+        valueAxis.renderer.minLabelPosition = 0.05;
+        valueAxis.renderer.maxLabelPosition = 0.95;
+        valueAxis.renderer.axisFills.template.disabled = true;
+        valueAxis.renderer.ticks.template.disabled = true;
+        
+        var series = chart.series.push(new am4charts.LineSeries());
+        series.dataFields.dateX = "date";
+        series.dataFields.valueY = "value";
+        series.interpolationDuration = 500;
+        series.defaultState.transitionDuration = 0;
+        series.tensionX = 0.8;
+        
+        chart.events.on("datavalidated", function () {
+            dateAxis.zoom({ start: 1 / 15, end: 1.2 }, false, true);
+        });
+        
+        dateAxis.interpolationDuration = 500;
+        dateAxis.rangeChangeDuration = 500;
+        
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                if (interval) {
+                    clearInterval(interval);
+                }
+            }
+            else {
+                startInterval();
+            }
+        }, false);
+        
+        // add data
+        var interval;
+        function startInterval() {
+            interval = setInterval(function() {
+              //sensor
+                tes.on("value", function(snapshot) {
+                visits=  (snapshot.val());
+                    });
+                //visits =visits + Math.round((Math.random() < 0.5 ? 1 : -1) * Math.random() * 5);
+                //console.log(visits)
+                var lastdataItem = series.dataItems.getIndex(series.dataItems.length - 1);
+                chart.addData(
+                    { date: new Date(lastdataItem.dateX.getTime() + 1000), value: visits },
+                    1
+                );
+            }, 500);
+        }
+        
+        startInterval();
+        
+        // all the below is optional, makes some fancy effects
+        // gradient fill of the series
+        series.fillOpacity = 1;
+        var gradient = new am4core.LinearGradient();
+        gradient.addColor(chart.colors.getIndex(0), 0.2);
+        gradient.addColor(chart.colors.getIndex(0), 0);
+        series.fill = gradient;
+        
+        // this makes date axis labels to fade out
+        dateAxis.renderer.labels.template.adapter.add("fillOpacity", function (fillOpacity, target) {
+            var dataItem = target.dataItem;
+            return dataItem.position;
+        })
+        
+        // need to set this, otherwise fillOpacity is not changed and not set
+        dateAxis.events.on("validated", function () {
+            am4core.iter.each(dateAxis.renderer.labels.iterator(), function (label) {
+                label.fillOpacity = label.fillOpacity;
+            })
+        })
+        
+        // this makes date axis labels which are at equal minutes to be rotated
+        dateAxis.renderer.labels.template.adapter.add("rotation", function (rotation, target) {
+            var dataItem = target.dataItem;
+            if (dataItem.date && dataItem.date.getTime() == am4core.time.round(new Date(dataItem.date.getTime()), "minute").getTime()) {
+                target.verticalCenter = "middle";
+                target.horizontalCenter = "left";
+                return -90;
+            }
+            else {
+                target.verticalCenter = "bottom";
+                target.horizontalCenter = "middle";
+                return 0;
+            }
+        })
+        
+        // bullet at the front of the line
+        var bullet = series.createChild(am4charts.CircleBullet);
+        bullet.circle.radius = 5;
+        bullet.fillOpacity = 1;
+        bullet.fill = chart.colors.getIndex(0);
+        bullet.isMeasured = false;
+        
+        series.events.on("validated", function() {
+            bullet.moveTo(series.dataItems.last.point);
+            bullet.validatePosition();
+        });
+        
+        }); // end am4core.ready()
+    
+    
+    </script>
+</body>
+</html>
